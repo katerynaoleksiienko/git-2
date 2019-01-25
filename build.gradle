@@ -1,0 +1,12 @@
+subprojects {
+
+    apply plugin: "java"
+
+    repositories {
+        jcenter()
+    }
+}
+task wrapper(type: Wrapper) {
+    gradleVersion = "4.8"
+    
+}

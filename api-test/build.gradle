@@ -1,0 +1,13 @@
+ext {
+    junitVersion = "5.1.0"
+    restAssuredVersion = "3.3.0"
+    }
+
+dependencies {
+    testCompile "io.rest-assured:rest-assured:$restAssuredVersion"
+
+    testImplementation("org.junit.jupiter:junit-jupiter-api:$junitVersion")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:$junitVersion")
+
+
+}
